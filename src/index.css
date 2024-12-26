@@ -1,0 +1,49 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #f55a5a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 55px;
+}
+
+header > img {
+  width: 24px;
+  margin-right: 7px;
+}
+
+header > h1 {
+  font-size: 0.9rem;
+  font-weight: 500;
+  font-family: "inter", sans-serif;
+}
+
+.entry-container {
+  display: flex;
+  align-items: center;
+  padding: 24px;
+}
+
+.entry-image-container {
+  width: 128px;
+  height: 168px;
+  overflow: hidden;
+  border-radius: 5px;
+  margin-right: 32px;
+}
+
+.entry-image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.entry-text > h3 > a {
+  font-size: 14px;
+}
